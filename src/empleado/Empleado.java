@@ -42,9 +42,8 @@ public class Empleado {
     }
 
     public void setHoraSemanales(double horaSemanales) {
-        
-        
-        if(horasSemanales <0){
+                
+        if (horaSemanales <0){
             System.out.println("Formato invalido de hora");
         }else{
              this.horaSemanales = horaSemanales;
